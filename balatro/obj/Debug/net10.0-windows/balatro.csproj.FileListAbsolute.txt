@@ -1,0 +1,17 @@
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.Form1.resources
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.csproj.GenerateResource.cache
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.AssemblyInfoInputs.cache
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.AssemblyInfo.cs
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.csproj.CoreCompileInputs.cache
+C:\Users\damir\source\repos\balatro\balatro\bin\Debug\net10.0-windows\balatro.exe
+C:\Users\damir\source\repos\balatro\balatro\bin\Debug\net10.0-windows\balatro.deps.json
+C:\Users\damir\source\repos\balatro\balatro\bin\Debug\net10.0-windows\balatro.runtimeconfig.json
+C:\Users\damir\source\repos\balatro\balatro\bin\Debug\net10.0-windows\balatro.dll
+C:\Users\damir\source\repos\balatro\balatro\bin\Debug\net10.0-windows\balatro.pdb
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.dll
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\refint\balatro.dll
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.pdb
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.genruntimeconfig.cache
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\ref\balatro.dll
+C:\Users\damir\source\repos\balatro\balatro\obj\Debug\net10.0-windows\balatro.csproj.Up2Date
