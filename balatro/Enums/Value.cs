@@ -4,7 +4,7 @@ using System.Text;
 
 namespace balatro.Enums
 {
-    internal enum Value
+    public enum Value
     {
         Two = 2,
         Three = 3,

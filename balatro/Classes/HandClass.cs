@@ -5,7 +5,7 @@ using System.Text;
 
 namespace balatro.Classes
 {
-    internal class Hand
+    public class Hand
     { 
 
         private List<Card> cards = new List<Card>();

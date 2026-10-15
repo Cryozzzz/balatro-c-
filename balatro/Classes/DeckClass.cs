@@ -3,7 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace balatro.Classes
 {
-    internal class Deck
+    public class Deck
     {
         private List<Card> cards = new List<Card>();
         public int Count

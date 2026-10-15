@@ -5,7 +5,7 @@ using System.Text;
 
 namespace balatro.Classes
 {
-    internal class Card
+    public class Card
     {
         public Suit suit;
         public Value value;
