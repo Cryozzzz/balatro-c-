@@ -1,25 +1,37 @@
 ﻿using balatro.Classes;
 using balatro.Enums;
+using System.Collections.Generic;
 
 Deck deck = new Deck();
 Hand hand = new Hand();
 Round round = new Round(deck,hand);
+Evaluator evaluator = new Evaluator();
 
-deck.Shuffle();
-hand.ShowCards();
-Card firstCard = deck.DrawCard();
-Card secondCard = deck.DrawCard();
-hand.AddCard(firstCard);
-hand.AddCard(secondCard);
-for (int i = 0; i < 4; i++)
+
+Card testCard = new Card
 {
-    hand.AddCard(deck.DrawCard());
-}
+    value = Value.Seven,
+    suit = Suit.Hearts
+};
+Card testCard2 = new Card
+{
+    value = Value.Seven,
+    suit = Suit.Spades
+};
+Card testCard3 = new Card
+{
+    value = Value.Seven,
+    suit = Suit.Diamonds
+};
+List<Card> testCards = new List<Card>();
 
-hand.SelectAll();
+testCards.Add(testCard);
+testCards.Add(testCard2);
+testCards.Add(testCard3);
 
-round.PlayHand();
-hand.ShowCards();
 
-Console.WriteLine("Cards in hand: " + hand.Count);
-Console.WriteLine("Points: " + round.Points);
+HandScore result = evaluator.Evaluate(testCards);
+
+Console.WriteLine(result.HandType);
+Console.WriteLine(result.Points);
+Console.WriteLine(result.Multi);

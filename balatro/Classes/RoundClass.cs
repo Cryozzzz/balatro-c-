@@ -21,9 +21,19 @@ namespace balatro.Classes
         }
         public void PlayHand()
         {
+
             List<Card> playedCards = hand.RemoveSelectedCards();
-            int cardsPoints = evaluator.Evaluate(playedCards);
-            totalCardsPoints += cardsPoints;
+
+            if (playedCards.Count == 0)
+            {
+
+                 Console.WriteLine("you need to select a card");
+                return;
+            }
+
+            HandScore cardsPoints = evaluator.Evaluate(playedCards);
+            int score = cardsPoints.Points * cardsPoints.Multi;
+            totalCardsPoints += score;
             int cardsNeeded = 8 - hand.Count;
             for (int i = cardsNeeded; i > 0; i--)
             {

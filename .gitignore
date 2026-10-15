@@ -1,2 +1,10 @@
+
+.vs/
+
 */bin/*
+
 */obj/*
+
+balatro.Tests/bin/
+
+balatro.Tests/obj/

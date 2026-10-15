@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="balatro/balatro.csproj" />
+  <Project Path="TestProject1/TestProject1.csproj" Id="e9a69fea-0dca-430d-af5e-0f16fbc8da41" />
+</Solution>
